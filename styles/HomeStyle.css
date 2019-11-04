@@ -1,24 +1,4 @@
-html{
-    background-color: black;
-}
-
-img{
-    padding: 0%;
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 99%;
-    background-color:black;
-    position: fixed;
-    height: 10%;
-    overflow: auto;
-    border-style: solid;
-    border-color:greenyellow;
-}
-
-li a.active {
-    color: azure;
+body
+{
+    background-image: url();
 }
