@@ -7,15 +7,15 @@ body
 
 .Socal
 {
-    background-color: rgb(71, 187, 255);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     margin: 0;
     margin-top: 200px;
     position: fixed;
 
     text-align: center;
 
-    border: rgb(36, 36, 36) 3px solid;
+    border: rgb(36, 36, 36) 1px solid;
 }
 
 .Socal div
@@ -25,9 +25,14 @@ body
 
 #gif
 {
-    width: 100%;
     margin-right: 12px;
     background-color: violet;
+}
+
+#gif img
+{
+    margin: auto;
+    width: 100%;
 }
 
 #Container
@@ -37,7 +42,7 @@ body
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    box-shadow: 0 0 7px rgb(0, 217, 255);
+    box-shadow: 0 0 17px rgb(0, 217, 255);
 }
 
 #Heades
@@ -54,10 +59,16 @@ body
     background-color: rgb(36, 36, 36);
     color: white;
     padding: 10px;
+    margin: auto;
 }
 
 #Content p
 {
     text-align: center;
     text-shadow: 0 0 4px turquoise;
+}
+
+#Main
+{
+    margin: auto;
 }
