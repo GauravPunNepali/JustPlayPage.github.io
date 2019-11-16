@@ -1,74 +1,109 @@
-body
+@font-face
 {
-    background-image: url("https://static.zerochan.net/Yuri%21%21%21.On.Ice.full.2024044.jpg");
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Azonixa;
+    font-weight: bold;
+    font-style: normal;
+    src:url("../fonts/Azonix.otf");
 }
 
-.Socal
+#body
 {
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    margin: 0;
-    margin-top: 200px;
-    position: fixed;
-
-    text-align: center;
-
-    border: rgb(36, 36, 36) 1px solid;
-}
-
-.Socal div
-{
-    margin: 3px;
-}
-
-#gif
-{
-    margin-right: 12px;
-    background-color: violet;
-}
-
-#gif img
-{
-    margin: auto;
-    width: 100%;
-}
-
-#Container
-{
-    background-color: white;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    box-shadow: 0 0 17px rgb(0, 217, 255);
-}
-
-#Heades
-{
-    background-color: rgb(102, 199, 255);
-    color: white;
-    text-align: center;
-    padding: 8px;
-    margin: 0;
+    background-color: blue;
 }
 
 #Content
 {
-    background-color: rgb(36, 36, 36);
-    color: white;
-    padding: 10px;
+    background-color: rgba(99, 99, 99, 0.726);
+
+    width: 800px;
+
     margin: auto;
+
+    position: relative;
 }
 
-#Content p
+#Heades
 {
+    background-color: rgb(0, 0, 0);
+    padding: 11px;
+}
+
+#GameTitle
+{
+    font-family:Azonixa;
+    font-style: normal;
+    color: rgb(181, 230, 29);
+
+    background-color: rgba(241, 97, 7, 0);
+
+    width: 200px;
+    margin-left: 20px;
+}
+
+#Nav
+{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    text-shadow: 0 0 4px turquoise;
+    font-size: small;
+    font-weight: bold;
+
+    background-color: black;
+
+    margin-top: 6px;
+
+    padding: 9px;
 }
 
-#Main
+#Butt
 {
-    margin: auto;
+    background-color: rgba(228, 26, 26, 0);
+    width: 500px;
+    height: 45px;
+
+    margin-left: 10px;
+}
+
+.But
+{
+    float: left;
+    margin: 13px;
+    background-color: rgba(255, 154, 22, 0);
+    color: white;
+}
+
+.Home
+{
+    color: rgb(181, 230, 29);
+}
+
+#GameContent
+{
+    
+}
+
+#GameContent video
+{
+    position: absolute;
+}
+
+#Download
+{
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+
+    background-color: lightblue;
+
+    padding-top: 200px;
+    padding-right: 600px;
+}
+
+#Download h1
+{
+    background-color: rgba(126, 252, 0, 0.24);
 }
