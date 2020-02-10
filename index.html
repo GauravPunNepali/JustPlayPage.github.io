@@ -1,42 +1,70 @@
-<html>
+﻿<!DOCTYPE html>
 
-    <head>
-        <title>JustPlay</title>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JustPlay</title>
+    <style>
+        body 
+        {
+            background-color:black;
+        }
+        .WContent 
+        {
+            width:820px;
+            height:auto;
+            margin:auto;
+            background-color :slategray;
+        }
 
-        <link rel="stylesheet" href="styles/HomeStyle.css">
+        .WHead 
+        {
+            width:auto;
+            height:100px;
+            margin:auto;
+            background-color:aquamarine;
+        }
+        .Logo {
+            color:red;
+            background-color:blue;
 
-        <!--script>
-            document.getElementById('vdo').play();
-        </script-->
-    </head>
+            margin-left:12px;
+            border:12px solid dotted;
+            padding-top: 12px;
+        }
 
-    <body>
-        
-        <div id="Content">
-
-            <div id="Heades">
-                <div id="GameTitle"><h1>JustPlay</h1></div>
+        .Content 
+        {
+            object-fit:fill;
+            background-color:aquamarine;
+            margin-top:-10px;
+        }
+        .DownloadNow 
+        {
+            height:200px;
+            width:auto;
+            text-align:center;
+            background-color:brown;
+            object-fit:cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="WContent">
+        <div class="WHead">
+            <div class="Logo">
+                <h1>JustPlay</h1>
             </div>
-
-            <div id="Nav">
-                <div id="butt">
-                    <a href="#DD"> <h2 class="Home But">Home</h2></a>
-                   
-                    <h2 class="Ranking But">Ranking</h2>
-                    <h2 class="Updates But">Updates</h2>
-                    <h2 class="Support But">Support</h2>
-                </div>
-            </div>
-
-            <div id="GameContent">
-                <video style="width: 100%;" autoplay="true" loop="true" id="vdo" muted="true">
-                    <source src="videos/apex.mp4" type="video/mp4">
-                </video>
-            </div>
-
-            <p style="position: relative; margin: 0;">My name is gaurav pun !</p>
         </div>
-        
-    </body>
-
+        <div class="Content">
+            <div class="DownloadNow">
+                <h1>JustPlay</h1>
+                <div class="Ca">
+                    <h1>Play for free !</h1>
+                </div>
+                <button>Download</button>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
